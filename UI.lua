@@ -8,7 +8,7 @@ local Player = Players.LocalPlayer
 local PlayerGui = Player:WaitForChild("PlayerGui")
 
 -- Load Logic
-local Logic = loadstring(game:HttpGet("YOUR_LOGIC_RAW_URL_HERE"))() -- replace this
+local Logic = loadstring(game:HttpGet("https://github.com/cxholicxholi-debug/fdgdgdgdfgdgfdgdfgdfgfdgdfgdgd/blob/main/logic.lua"))() -- replace this
 
 local old = PlayerGui:FindFirstChild("RHub")
 if old then old:Destroy() end
